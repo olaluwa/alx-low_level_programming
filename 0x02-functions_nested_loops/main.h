@@ -1,14 +1,7 @@
-#include <stdio.h>
-int main ()
-{
+#ifndef MAIN_H
+#define MAIN_H
 
-        printf("_putchar\n");
-        return 0;
-
-
-}
-~
-~
-~
-~
-
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
