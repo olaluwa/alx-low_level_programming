@@ -12,6 +12,6 @@ int main ()
 	_putchar('\n');
 	
 	return 0;
-	 printf("_putchar\n");
+	 
 	
 }
