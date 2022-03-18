@@ -2,22 +2,33 @@
 
 void more_numbers(void)
 {
-	int i, ro;
-	for (ro = 0; ro < 10; ro++)
+	int i;
+	int j;
+	int k;
+	int l;
+
+	i = 0;
+	l = 0;
+	while (i < 10)
 	{
-
-		for(i = 0; i <= 14; i++)
+		while (l <= 14)
 		{
-			if (i >= 10)
+			if (l < 10)
 			{
-
-				_putchar((i / 10) + '0');
+				k = l;
 			}
-			_putchar((i % 10) + '0');
+			else
+			{
+				j = l / 10;
+				k = l % 10;
+				_putchar (j + '0');
+			}
+			_putchar (k + '0');
+
+			l++;
 		}
-		_putchar('\n');
-
+		i++;
+		l = 0;
+		_putchar ('\n');
 	}
-
-
 }

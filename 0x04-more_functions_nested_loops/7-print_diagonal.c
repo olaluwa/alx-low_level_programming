@@ -1,23 +1,26 @@
-#include "main.h'
+#include "main.h"
 
 void print_diagonal(int n)
 {
-	int co, sp;
+	int i;
+	int b;
 
-	if (n <= 0)
+	if (n > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (co = 1; co <= n; co++)
+		for (i = 0; i < n; i++)
 		{
-			for (sp = 1; sp < co; sp++)
+			for (b = 0; b < i; b++)
 			{
-				_putchar(' ');
+				_putchar (' ');
 			}
-			_putchar('\\');
-			_putchar('\n');
+			{
+				_putchar (92);
+				_putchar ('\n');
+			}
 		}
 	}
+	else
+		{
+			_putchar ('\n');
+		}
 }

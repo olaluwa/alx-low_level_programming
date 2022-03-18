@@ -2,22 +2,23 @@
 
 void print_square(int size)
 {
-	int co, ro;
+	int i;
+	int k;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
+		for (i = 0; i < size; i++)
+		{
+			for (k = 0; k < size; k++)
+			{
+				_putchar (35);
+			}
+			_putchar ('\n');
+		}
 	}
 	else
 	{
-		for (co = 1; co <= size; co++)
-		{
-			_putchar('#');
-			for (ro = 2; ro <= size; ro++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
+		_putchar ('\n');
 	}
 }
+
