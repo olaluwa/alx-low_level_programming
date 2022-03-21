@@ -11,7 +11,7 @@ void print_rev(char *s)
 	{
 		if(s[sam] == '\0')
 			break;
-		count++;
+		sam++;
 
 	}
 	for (sam--; sam >= 0; sam--)
