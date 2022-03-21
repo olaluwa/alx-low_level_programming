@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * SNIP_int - snaps two integers
+ * swap_int - snaps two integers
  * @a: first parameter
  * @b: second parameter
  * Return: no return
