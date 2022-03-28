@@ -2,8 +2,8 @@
 /**
  * print_diagsums - print sum of 2 digona
  * @a:int
- * @size:int size
- * Return:void
+ * @size: size of a matrix
+ * Return: no return 
  */
 void print_diagsums(int *a, int size)
 {
