@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_chessboard - print a chessboard
- * @a:array
- * Return:void
+ * @a: input pointer
+ * Return: void
  */
 void print_chessboard(char (*a)[8])
 {
-	int i, j = 0;
+	unsigned int i, j = 0;
 
 	for (i = 0; i < 64; i++)
 	{
