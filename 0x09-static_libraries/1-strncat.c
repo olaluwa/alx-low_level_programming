@@ -6,11 +6,11 @@
  * @n: amount of bytes used from src.
  * Return: the pointer to dest.
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src, int n)
 {
         int a,b;
 
-        for (a = 0; dest[a], != '\0'; a++)
+        for (a = 0; dest[a] != '\0'; a++)
         {
                 continue;
 
